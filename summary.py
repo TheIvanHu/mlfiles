@@ -1,10 +1,4 @@
 from punctuator import Punctuator
-import json
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from nltk.tokenize import word_tokenize, sent_tokenize
-import bs4 as BeautifulSoup
-import urllib.request  
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 import re
 def summarize(subtitles):
